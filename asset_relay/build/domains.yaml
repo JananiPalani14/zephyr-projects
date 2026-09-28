@@ -1,0 +1,7 @@
+default: asset_relay
+build_dir: /home/janani/asset_relay/build
+domains:
+  - name: asset_relay
+    build_dir: /home/janani/asset_relay/build/asset_relay
+flash_order:
+  - asset_relay

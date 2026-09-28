@@ -1,0 +1,2 @@
+"nrf":"/home/janani/ncs/v2.9.3/nrf":"/home/janani/ncs/v2.9.3/nrf/sysbuild"
+"mcuboot":"/home/janani/ncs/v2.9.3/bootloader/mcuboot":"/home/janani/ncs/v2.9.3/bootloader/mcuboot/boot/zephyr/sysbuild"

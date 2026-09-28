@@ -1,0 +1,13 @@
+# Target labels
+ asset_relay
+# Source files and their labels
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/CMakeFiles/asset_relay
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/CMakeFiles/asset_relay.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/CMakeFiles/asset_relay-complete.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-build.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-configure.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-download.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-install.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-mkdir.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-patch.rule
+/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-update.rule

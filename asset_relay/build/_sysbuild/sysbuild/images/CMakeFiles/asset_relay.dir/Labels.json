@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/CMakeFiles/asset_relay"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/CMakeFiles/asset_relay.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/CMakeFiles/asset_relay-complete.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-build.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-configure.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-download.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-install.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-mkdir.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-patch.rule"
+		},
+		{
+			"file" : "/home/janani/asset_relay/build/_sysbuild/sysbuild/images/asset_relay-prefix/src/asset_relay-stamp/asset_relay-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"asset_relay"
+		],
+		"name" : "asset_relay"
+	}
+}

@@ -1,0 +1,19 @@
+cmake:
+  application:
+    source-dir: /home/janani/ncs/v2.9.3/zephyr/share/sysbuild
+  board:
+    name: nrf52833dk
+    qualifiers: nrf52833
+    revision: 
+  kconfig:
+    files:
+     - /home/janani/asset_relay/build/_sysbuild/empty.conf
+     - /home/janani/asset_relay/build/_sysbuild/empty.conf
+    user-files:
+     - /home/janani/asset_relay/build/_sysbuild/empty.conf
+  sysbuild: true
+version: 0.1.0
+west:
+  command: /home/janani/ncs/toolchains/b77d8c1312/usr/local/bin/west build -b nrf52833dk/nrf52833 -d /home/janani/asset_relay/build /home/janani/asset_relay
+  topdir: /home/janani/ncs/v2.9.3
+  version: 1.2.0

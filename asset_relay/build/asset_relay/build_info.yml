@@ -1,0 +1,47 @@
+cmake:
+  application:
+    configuration-dir: /home/janani/asset_relay
+    source-dir: /home/janani/asset_relay
+  board:
+    name: nrf52833dk
+    qualifiers: nrf52833
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - /home/janani/ncs/v2.9.3/nrf/dts/bindings
+     - /home/janani/ncs/v2.9.3/zephyr/dts/bindings
+    files:
+     - /home/janani/ncs/v2.9.3/zephyr/boards/nordic/nrf52833dk/nrf52833dk_nrf52833.dts
+    include-dirs:
+     - /home/janani/ncs/v2.9.3/nrf/include
+     - /home/janani/ncs/v2.9.3/nrf/dts
+     - /home/janani/ncs/v2.9.3/zephyr/include
+     - /home/janani/ncs/v2.9.3/zephyr/include/zephyr
+     - /home/janani/ncs/v2.9.3/zephyr/dts/common
+     - /home/janani/ncs/v2.9.3/zephyr/dts/x86
+     - /home/janani/ncs/v2.9.3/zephyr/dts/xtensa
+     - /home/janani/ncs/v2.9.3/zephyr/dts/sparc
+     - /home/janani/ncs/v2.9.3/zephyr/dts/riscv
+     - /home/janani/ncs/v2.9.3/zephyr/dts/posix
+     - /home/janani/ncs/v2.9.3/zephyr/dts/nios2
+     - /home/janani/ncs/v2.9.3/zephyr/dts/arm64
+     - /home/janani/ncs/v2.9.3/zephyr/dts/arm
+     - /home/janani/ncs/v2.9.3/zephyr/dts/arc
+     - /home/janani/ncs/v2.9.3/zephyr/dts
+  kconfig:
+    files:
+     - /home/janani/ncs/v2.9.3/zephyr/boards/nordic/nrf52833dk/nrf52833dk_nrf52833_defconfig
+     - /home/janani/asset_relay/prj.conf
+     - /home/janani/asset_relay/build/asset_relay/zephyr/.config.sysbuild
+    user-files:
+     - /home/janani/asset_relay/prj.conf
+  toolchain:
+    name: zephyr
+    path: /home/janani/ncs/toolchains/b77d8c1312/opt/zephyr-sdk
+  vendor-specific:
+    nordic:
+      svdfile: /home/janani/ncs/v2.9.3/modules/hal/nordic/nrfx/mdk/nrf52833.svd
+  zephyr:
+    version: 3.7.99
+    zephyr-base: /home/janani/ncs/v2.9.3/zephyr
+version: 0.1.0

@@ -1,0 +1,92 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x1ccc9
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          6474804 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         7
+  Size of section headers:           40 (bytes)
+  Number of section headers:         44
+  Section header string table index: 43
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] rom_start         PROGBITS        00000000 000120 000100 00 WAX  0   0  4
+  [ 2] text              PROGBITS        00000100 000220 03e344 00  AX  0   0  4
+  [ 3] .ARM.exidx        ARM_EXIDX       0003e444 03e564 000008 00  AL  2   0  4
+  [ 4] initlevel         PROGBITS        0003e44c 03e56c 0000b0 00   A  0   0  4
+  [ 5] device_area       PROGBITS        0003e4fc 03e61c 0000a0 00   A  0   0  4
+  [ 6] sw_isr_table      PROGBITS        0003e59c 03e6bc 000180 00  WA  0   0  4
+  [ 7] bt_l2cap_fix[...] PROGBITS        0003e71c 03e83c 000024 00   A  0   0  4
+  [ 8] bt_conn_cb_area   PROGBITS        0003e740 03e860 000030 00   A  0   0  4
+  [ 9] bt_gatt_serv[...] PROGBITS        0003e770 03e890 000010 00   A  0   0  4
+  [10] bt_mesh_subn[...] PROGBITS        0003e780 03e8a0 00000c 00   A  0   0  4
+  [11] bt_mesh_app_[...] PROGBITS        0003e78c 03e8ac 000004 00   A  0   0  4
+  [12] log_const_area    PROGBITS        0003e790 03e8b0 0001e8 00   A  0   0  4
+  [13] log_backend_area  PROGBITS        0003e978 03ea98 000020 00   A  0   0  4
+  [14] settings_han[...] PROGBITS        0003e998 03eab8 000168 00   A  0   0  4
+  [15] tbss              NOBITS          0003eb00 03ec20 000008 00 WAT  0   0  4
+  [16] rodata            PROGBITS        0003eb00 03ec20 0070a4 00   A  0   0 16
+  [17] _RTT_SECTION_NAME NOBITS          20000000 046d80 0004b8 00  WA  0   0  4
+  [18] .ramfunc          NOBITS          200004b8 045cc4 000008 00  WA  0   0  1
+  [19] datas             PROGBITS        200004c0 045cc8 000da0 00  WA  0   0  8
+  [20] device_states     PROGBITS        20001260 046a68 000010 00  WA  0   0  1
+  [21] log_mpsc_pbu[...] PROGBITS        20001270 046a78 000040 00  WA  0   0  4
+  [22] log_msg_ptr_area  PROGBITS        200012b0 046ab8 000004 00  WA  0   0  4
+  [23] k_mem_slab_area   PROGBITS        200012b4 046abc 0000c4 00  WA  0   0  4
+  [24] k_mutex_area      PROGBITS        20001378 046b80 00003c 00  WA  0   0  4
+  [25] k_sem_area        PROGBITS        200013b4 046bbc 000030 00  WA  0   0  4
+  [26] k_fifo_area       PROGBITS        200013e4 046bec 000048 00  WA  0   0  4
+  [27] net_buf_pool_area PROGBITS        2000142c 046c34 000134 00  WA  0   0  4
+  [28] bss               NOBITS          20001560 046d80 00466e 00  WA  0   0  8
+  [29] noinit            NOBITS          20005c00 046d80 006762 00  WA  0   0 64
+  [30] .comment          PROGBITS        00000000 046d6c 000040 01  MS  0   0  1
+  [31] .debug_aranges    PROGBITS        00000000 046db0 005298 00      0   0  8
+  [32] .debug_info       PROGBITS        00000000 04c048 3de450 00      0   0  1
+  [33] .debug_abbrev     PROGBITS        00000000 42a498 02bf30 00      0   0  1
+  [34] .debug_line       PROGBITS        00000000 4563c8 084543 00      0   0  1
+  [35] .debug_frame      PROGBITS        00000000 4da90c 00f838 00      0   0  4
+  [36] .debug_str        PROGBITS        00000000 4ea144 028e6a 01  MS  0   0  1
+  [37] .debug_loc        PROGBITS        00000000 512fae 0b6a6e 00      0   0  1
+  [38] .debug_ranges     PROGBITS        00000000 5c9a20 01bed0 00      0   0  8
+  [39] .ARM.attributes   ARM_ATTRIBUTES  00000000 5e58f0 000032 00      0   0  1
+  [40] .last_section     PROGBITS        00046c4c 046d68 000004 00   A  0   0  1
+  [41] .symtab           SYMTAB          00000000 5e5924 029580 10     42 7543  4
+  [42] .strtab           STRTAB          00000000 60eea4 01db4b 00      0   0  1
+  [43] .shstrtab         STRTAB          00000000 62c9ef 000242 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  EXIDX          0x03e564 0x0003e444 0x0003e444 0x00008 0x00008 R   0x4
+  LOAD           0x000120 0x00000000 0x00000000 0x45ba4 0x45ba4 RWE 0x10
+  LOAD           0x000000 0x200004b8 0x00045ba4 0x00000 0x00008 RW  0x1
+  LOAD           0x045cc8 0x200004c0 0x00045bac 0x010a0 0x010a0 RW  0x8
+  LOAD           0x046d68 0x00046c4c 0x00046c4c 0x00004 0x00004 R   0x1
+  LOAD           0x000000 0x20000000 0x20000000 0x00000 0x0c362 RW  0x40
+  TLS            0x03ec20 0x0003eb00 0x0003eb00 0x00000 0x00008 R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     rom_start text .ARM.exidx initlevel device_area sw_isr_table bt_l2cap_fixed_chan_area bt_conn_cb_area bt_gatt_service_static_area bt_mesh_subnet_cb_area bt_mesh_app_key_cb_area log_const_area log_backend_area settings_handler_static_area rodata 
+   02     .ramfunc 
+   03     datas device_states log_mpsc_pbuf_area log_msg_ptr_area k_mem_slab_area k_mutex_area k_sem_area k_fifo_area net_buf_pool_area 
+   04     .last_section 
+   05     _RTT_SECTION_NAME .ramfunc bss noinit 
+   06     tbss 

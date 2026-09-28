@@ -1,0 +1,5 @@
+west:
+  command: /home/janani/ncs/toolchains/b77d8c1312/usr/local/bin/west build -b nrf52833dk/nrf52833
+    -d /home/janani/asset_relay/build /home/janani/asset_relay
+  topdir: /home/janani/ncs/v2.9.3
+  version: 1.2.0
